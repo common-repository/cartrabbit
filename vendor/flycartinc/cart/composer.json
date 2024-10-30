@@ -1,0 +1,23 @@
+{
+  "name": "flycartinc/cart",
+  "type": "library",
+  "description": "A simple cart implementation",
+  "keywords": ["Cart","Session Cart","Cart Library","Cart Persistence"],
+  "license": "MIT",
+  "authors": [
+     {
+    "name" : "Shankar Thiyagaraajan",
+    "email" : "shankarthiyagaraajan@gmail.com"
+     }
+  ],
+
+  "require": {
+    "php": "^5.5.9|^7.0",
+    "illuminate/session": "^5.2",
+    "illuminate/encryption" : "^5.2"
+  },
+
+  "autoload": {
+    "psr-4": { "Flycartinc\\Cart\\": "src/" }
+  }
+}

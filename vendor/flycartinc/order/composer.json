@@ -1,0 +1,25 @@
+{
+  "name": "flycartinc/order",
+  "description": "Order management for CartRabbit",
+  "keywords": ["shop", "ecommerce", "orders", "cart"],
+  "homepage": "http://flycart.org",
+  "license": "MIT",
+  "authors": [
+    {
+      "name":     "Ramesh Elamathi"
+    }
+  ],
+  "require": {
+    "php": "^5.5.9|^7.0",
+    "illuminate/database": ">=5.0.0",
+    "flycartinc/cart": "dev-master"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {
+    "psr-4": {
+      "Flycartinc\\Order\\": "src/"
+    }
+  }
+}
